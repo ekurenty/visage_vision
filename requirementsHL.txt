@@ -1,0 +1,16 @@
+numpy
+os
+PIL
+tensorflow.keras.utils
+tensorflow.keras.callbacks
+pandas
+matplotlib.pyplot
+sklearn.preporcessing
+sklearn.model_selecetion
+sklearn.metrics
+matplotlib.image
+tensorflow.keras
+keras.models
+keras.layers
+keras.optimizers
+platform
