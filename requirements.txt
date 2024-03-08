@@ -1,0 +1,11 @@
+ultralytics
+cv2
+streamlit
+numpy
+fastapi
+numpy
+PIL
+io
+ultralytics
+cv2
+streamlit
