@@ -1,11 +1,4 @@
-ultralytics
-cv2
-streamlit
 numpy
+ultralytics==8.1.23
 fastapi
-numpy
-PIL
-io
-ultralytics
-cv2
-streamlit
+uvicorn
