@@ -1,0 +1,4 @@
+os
+pandas
+ultralytics==8.1.23
+torch

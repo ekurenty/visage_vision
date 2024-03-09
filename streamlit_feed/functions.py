@@ -1,7 +1,6 @@
 from ultralytics import YOLO
 import cv2
 import streamlit as st
-import numpy as np
 
 
 def load_model(model_path):
