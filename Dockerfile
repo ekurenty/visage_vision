@@ -1,12 +1,12 @@
-FROM python:3.10.6-buster
+FROM python:3.11.8-bookworm
 
 WORKDIR /app
-COPY . /app
-COPY requirementsHL.txt requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
-EXPOSE 8080
 
-COPY Makefile Makefile
-RUN make reset_local_files
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
+COPY visage_vision visage_vision
+# COPY setup.py setup.py
+# RUN pip install .
+
+CMD uvicorn  visage_vision.api.main:app --host 0.0.0.0 --port 8000
