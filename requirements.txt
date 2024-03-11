@@ -1,9 +1,4 @@
-os
 cv2
-torch
 numpy
-Image
-pandas
-shutil
+streamlit
 ultralytics==8.1.23
-sklearn.metrics import classification_report
