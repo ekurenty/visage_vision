@@ -23,7 +23,7 @@ def _display_detected_frames(conf, model, st_frame, image):
 
     # PASS TO API
     # Predict the objects in the image using the YOLOv8 model
-    res = model.predict(image, conf=conf)
+    res = model.predict(image, conf=conf, iou=0.6,)
 
     # Plot the detected objects on the video frame
     res_plotted = res[0].plot()
