@@ -44,6 +44,11 @@ functions.play_webcam(confidence, model)
 
 # st.header(f'This person is: {pred}')
 
+# @app.post("/create_file")
+# async def create_file(file: UploadFile = File(...)):
+#       file2store = await file.read()
+      # some code to store the BytesIO(file2store) to the other database
+
 
 # result = model.predict('20240209_LeWagon__0021.jpg')
 # Image.fromarray(result[0].plot()[:,:,::-1])

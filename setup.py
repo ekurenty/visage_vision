@@ -14,7 +14,7 @@ setup(name='visage_vision',
       url="https://github.com/ekurenty/visage_vision",
       install_requires=requirements,
       packages=find_packages(),
-      #test_suite="tests",
+      test_suite="tests",
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
       zip_safe=False)

@@ -27,6 +27,7 @@ def _display_detected_frames(conf, model, st_frame, image):
 
     # Plot the detected objects on the video frame
     res_plotted = res[0].plot()
+
     st_frame.image(res_plotted,
                    caption='Detected Video',
                    channels="BGR",

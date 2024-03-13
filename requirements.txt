@@ -4,3 +4,4 @@ FastAPI
 streamlit
 ultralytics==8.1.23
 altair==4.2.2
+python-multipart
