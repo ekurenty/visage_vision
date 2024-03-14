@@ -1,0 +1,6 @@
+numpy
+ultralytics==8.1.23
+fastapi
+uvicorn
+python-multipart
+streamlit
